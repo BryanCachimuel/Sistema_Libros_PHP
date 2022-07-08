@@ -3,7 +3,7 @@
 <h3> 🛠 Este sistema está desarrollado con las tecnologías siguientes: PHP, MySQL, html5 y CSS3</h3>
 <hr>
 
-[![libros.png](https://i.postimg.cc/wTsknzqN/libros.png)](https://postimg.cc/1fs6NLNR)
+[![sistemalibros.png](https://i.postimg.cc/0NzCpKtL/sistemalibros.png)](https://postimg.cc/SXp84Rbr)
 
 <hr>
 
