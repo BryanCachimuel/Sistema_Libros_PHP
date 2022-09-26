@@ -120,8 +120,11 @@ if(isset($_POST['submit']))
      
 
         <div id="layoutSidenav_content">
-               
+       
             <main>
+            <nav class="navegar">
+                <a href="index.php" class="navegar__it navegar__it--cta">Sistema Web de Libros</a>
+            </nav>
                     <div class="container">
                         <div class="row justify-content-center">
                             <div class="col-lg-7">
@@ -182,6 +185,7 @@ if(isset($_POST['submit']))
                                             </div>
                                             <div class="mt-4 mb-0">
                                                 <button type="submit" name="submit" class="btn btn-primary">Registrarse</button>
+                                                <a href="login.php" class="btn btn-success">Login</a>
                                             </div>
                                         </form>
                                     </div>
@@ -193,6 +197,7 @@ if(isset($_POST['submit']))
                         </div>
                     </div>
             </main>
+         
         </div>
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>

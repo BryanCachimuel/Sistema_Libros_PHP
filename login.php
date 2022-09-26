@@ -72,7 +72,7 @@ if(isset($_POST['submit']))
 
             <section class="hero__container">
             <div id="layoutAuthentication">
-            <div id="layoutAuthentication_content">
+             <div id="layoutAuthenticatio n_content">
                 <main>
                     <div class="container">
                         <div class="row justify-content-center">

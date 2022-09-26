@@ -95,6 +95,29 @@
 }
 
 
+.navegar__it{
+  color: #000;
+  text-decoration: none;
+  margin-right: 20px;
+  padding: 10px 15px;
+  font-weight: inherit;
+}
+
+.navegar__it:hover{
+  color: #000;
+  text-decoration: none;
+}
+
+.navegar__it--cta{
+  border: 1px solid #000;
+}
+
+.navegar__it--cta:hover{
+  color: #000;
+  border: 2px solid #000;
+}
+
+
 
 
 hr {
