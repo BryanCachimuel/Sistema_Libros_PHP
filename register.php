@@ -104,7 +104,6 @@ if(isset($_POST['submit']))
 }
 ?>
  
- 
  <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -183,7 +182,9 @@ if(isset($_POST['submit']))
                             Rixler Corp
                     </div>
                 </nav>
-            </div>
+            </div> -->
+
+            
             <div id="layoutSidenav_content">
                 <main>
                     
