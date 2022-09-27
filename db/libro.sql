@@ -33,13 +33,6 @@ CREATE TABLE `libros` (
   `imagen` varchar(1000) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
---
--- Volcado de datos para la tabla `libros`
---
-
-INSERT INTO `libros` (`id`, `nombre`, `imagen`) VALUES
-(1, 'Libro de Java', '1637894841_Captura de pantalla (98).png'),
-(2, 'Libro Jquery', '1637894805_Captura de pantalla (30).png');
 
 -- --------------------------------------------------------
 
@@ -48,7 +41,7 @@ INSERT INTO `libros` (`id`, `nombre`, `imagen`) VALUES
 --
 
 CREATE TABLE `users` (
-  `id` int(11) NOT NULL,
+  `id` int(11) NOT NULL auto_increment,
   `nombre` varchar(255) NOT NULL DEFAULT 'nombre',
   `apellido` varchar(255) NOT NULL DEFAULT 'apellido',
   `email` varchar(255) NOT NULL DEFAULT 'email',
@@ -56,18 +49,6 @@ CREATE TABLE `users` (
   `created_at` datetime NOT NULL DEFAULT current_timestamp(),
   `updated_at` datetime NOT NULL DEFAULT current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
-
---
--- Volcado de datos para la tabla `users`
---
-
-INSERT INTO `users` (`id`, `nombre`, `apellido`, `email`, `password`, `created_at`, `updated_at`) VALUES
-(2, 'Bryan', 'Cachimuel', 'bryancachimuel@gmail.com', '$2y$04$TE9fn.orvLI/W34t//EphuzbF7/O1xfuHuk2GNPIovYgxS9IFX3bW', '2021-11-20 03:47:01', '2021-11-20 03:47:01'),
-(3, 'Marlon', 'Cachimuel', 'marloncachimuel@gmail.com', '$2y$04$YJDlTfZ3xyYWbSTA1bYVxOBpa4XizO6WorgtAt8Je4i5cQQPkInDi', '2021-11-26 03:14:33', '2021-11-26 03:14:33');
-
---
--- Índices para tablas volcadas
---
 
 --
 -- Indices de la tabla `libros`
@@ -81,23 +62,4 @@ ALTER TABLE `libros`
 ALTER TABLE `users`
   ADD PRIMARY KEY (`id`);
 
---
--- AUTO_INCREMENT de las tablas volcadas
---
 
---
--- AUTO_INCREMENT de la tabla `libros`
---
-ALTER TABLE `libros`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
-
---
--- AUTO_INCREMENT de la tabla `users`
---
-ALTER TABLE `users`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
-COMMIT;
-
-/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
-/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
-/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
