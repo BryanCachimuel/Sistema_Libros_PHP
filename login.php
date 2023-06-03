@@ -83,7 +83,10 @@ if(isset($_POST['submit']))
                                     <?php
                                          if (isset($errors) && count($errors) > 0) {
                                              foreach ($errors as $error_msg) {
-                                                 echo '<div class="alert alert-danger">' . $error_msg . '</div>';
+                                                 echo '<div class="alert alert-warning alert-dismissible fade show" role="alert">
+                                                            <strong>' . $error_msg . '</strong>
+                                                            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                                                       </div>';
                                             }
                                         }
                                     ?>
@@ -103,9 +106,9 @@ if(isset($_POST['submit']))
                                             </div>
                                         </form>
                                     </div>
-                                    <!--<div class="card-footer text-center py-3">
-                                        <div class="small"><a href="register.php">Registrese!</a></div>
-                                    </div>-->
+                                    <div class="card-footer text-center py-3">
+                                        <div class="small"><a href="registrar.php">Registrese!</a></div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
