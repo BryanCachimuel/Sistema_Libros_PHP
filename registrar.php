@@ -138,14 +138,22 @@ if(isset($_POST['submit']))
                                         {
                                             foreach($errors as $error_msg)
                                             {
-                                                echo '<div class="alert alert-danger">'.$error_msg.'</div>';
+                                                //echo '<div class="alert alert-danger">'.$error_msg.'</div>';
+                                                echo '<div class="alert alert-danger alert-dismissible fade show" role="alert">
+                                                        <strong>' . $error_msg . '</strong>
+                                                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                                                      </div>';
                                             }
                                         }
                                         
                                         if(isset($success))
                                         {
                                             
-                                            echo '<div class="alert alert-success">'.$success.'</div>';
+                                            //echo '<div class="alert alert-success">'.$success.'</div>';
+                                            echo '<div class="alert alert-success alert-dismissible fade show" role="alert">
+                                                        <strong>' .$success. '</strong>
+                                                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                                                  </div>';
                                         }
                                     ?>
                                         <form method="POST" action="<?php echo $_SERVER['PHP_SELF'];?>">
