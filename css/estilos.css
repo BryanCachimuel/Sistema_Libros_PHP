@@ -351,8 +351,8 @@ html{
 
 .footer__container-icons{
     display: inline-block;
-    width: 60px;
-    height: 60px;
+    width: 80px;
+    height: 80px;
     color: #fff;
     text-align: center;
     border: 1px solid #fff;
@@ -361,12 +361,13 @@ html{
 
 .footer__icon{
     color: inherit;
-    font-size: 30px;
+    font-size: 40px;
     text-decoration: none;
 }
 
-.fa.footer__icon{
-    line-height: 60px;
+
+.fab.footer__icon{
+    line-height: 80px;
 }
 
 .line h2{
