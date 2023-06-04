@@ -14,8 +14,8 @@ $listarLibros=$sentenciaSQL->fetchAll(PDO::FETCH_ASSOC);
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Sitio Web de Libros</title>
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
     <link rel="stylesheet" type="text/css" href="css/estilos.css">
-
 </head>
 <body>
 
@@ -167,10 +167,13 @@ $listarLibros=$sentenciaSQL->fetchAll(PDO::FETCH_ASSOC);
                         <a class="fab fa-facebook-square footer__icon" aria-hidden="true" href="#"></a>
                     </span>
                     <span class="footer__container-icons">
-                        <a class="fas fa-twitter-square footer__icon" aria-hidden="true" href="#"></a>
+                        <a class="fab fa-twitter-square footer__icon" aria-hidden="true" href="#"></a>
                     </span>
                     <span class="footer__container-icons">
-                        <a class="fas fa-whatsapp footer__icon" aria-hidden="true" href="#"></a>
+                        <a class="fab fa-whatsapp-square footer__icon" aria-hidden="true" href="#"></a>
+                    </span>
+                    <span class="footer__container-icons">
+                        <a class="fab fa-instagram-square footer__icon" aria-hidden="true" href="#"></a>
                     </span>
                 </div>
             </section>
